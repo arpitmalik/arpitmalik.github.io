@@ -1,0 +1,145 @@
+/* 
+--------------CSS File--------------
+
+Topics:
+#1 Navbar
+#2 Hero Section
+#3 Portfolio Section
+
+*/
+
+body,html{
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* #1 The Navbar */
+
+.white-text{
+    color: white;
+}
+
+/* #2 The Hero section */
+.hero-image {
+    background-color: #3B5998;
+    height: 92.35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text h2{
+    font-size: 3.5em;
+    padding: 0px;
+}
+
+.hero-text p{
+    font-size: 2em;
+    padding: 0px;
+}
+
+.hero-text hr.style8 {
+    width: 80%;
+    border-top: 1px solid #8c8b8b;
+    border-bottom: 1px solid #fff;
+}
+hr.style8:after {
+    content: '';
+    display: block;
+    margin-top: 2px;
+    border-top: 1px solid #8c8b8b;
+    border-bottom: 1px solid #fff;
+}
+
+.header-image{
+     height: 360px;
+     width: 360px;   
+     max-height: 70%; 
+     max-width: 70%; 
+     border-radius:50%;
+}
+
+/*  #3 Portfolio Section*/ 
+
+.portfolio{
+    color: #3B5998;
+    font-weight: 700;
+    text-align: center;
+    font-size: 4em;
+}
+
+/* #4 About Section */
+.bgcolor{
+    background-color: #3B5998;
+}
+
+.bgcolor h1{ 
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 4em;
+ }
+
+ .ptext{
+    color: white;
+    text-align: justify;
+    font-size: 1em;
+ }
+
+
+ .resume_button, .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: white;
+    border-color: #3B5998;
+}
+.resume_button, .btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #007299;
+    color: #007299;
+    box-shadow: none;
+}
+
+.hyperlink{
+    text-decoration: none;
+}
+
+/* Footer Section */
+ .footer_bg{
+    background-color: #2C3E50;
+}
+.footer-below{
+    color: white;
+    text-align: center;
+}
+
+.footer_header{
+    color: white;
+    text-align: center;    
+}
+
+.footer_para{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+
+/* Media Queries */ 
+
+@media (min-width: 768px) {
+    .hero-text h2,p{
+      font-size: 4em;
+                    }
+}
+
+
