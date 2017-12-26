@@ -124,7 +124,9 @@ hr.style8:after {
     text-decoration: none;
 }
 
-/* Footer Section */
+
+/* #5 Footer Section*/
+
  .footer_bg{
     background-color: #2C3E50;
 }
@@ -144,14 +146,6 @@ hr.style8:after {
     font-weight: 700;
     font-size: 1.5em;
 }
-
-
-#map{
-      width: 100%;
-   height: 370px;
-   background-color: grey;
-   }
-
 
 
 /* Media Queries */ 
