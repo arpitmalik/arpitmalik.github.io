@@ -5,7 +5,7 @@ Topics:
 #1 General
 #2 Navbar Section
 #3 Hero Section
-#4 Skills Section
+#4 Portfolio Section
 
 */
 
@@ -82,14 +82,15 @@ hr.style8:after {
      border-radius:50%;
 }
 
-/*  #3 Skills Section*/ 
+/*  #3 Portfolio Section*/ 
 
-.skills{
+.portfolio{
     color: #3B5998;
     font-weight: 700;
     text-align: center;
     font-size: 4em;
 }
+
 
 /* #4 About Section */
 .bgcolor{
@@ -137,7 +138,8 @@ hr.style8:after {
 
 .footer_header{
     color: white;
-    text-align: center;    
+    text-align: center;   
+    text-decoration: underline; 
 }
 
 .footer_para{
@@ -147,7 +149,31 @@ hr.style8:after {
     font-size: 1.5em;
 }
 
+.footer_text{
+    color: white;
+    text-align: justify;
+    font-size: 1.2em;
+}
 
+.input_box{
+    text-align: left;
+    width: 100%; 
+    height:35px;
+    margin-bottom: 5px;
+}
+
+.input_messagebox{
+    text-align: left;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 5px; 
+}
+
+.input_submit{
+    text-align: left;
+    height:35px;
+    margin-bottom: 5px;
+}
 /* Media Queries */ 
 
 @media (min-width: 768px) {
