@@ -34,11 +34,12 @@ input,textarea{
 
 /* #2 The Hero section */
 .hero-image {
-    background-color: #3B5998;
+    background-color: #000000;
+    background-image: url('background.png');
     height: 92.35%;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat:repeat;
+    background-size: auto;
     position: relative;
 }
 
@@ -85,7 +86,7 @@ hr.style8:after {
 /*  #3 Portfolio Section*/ 
 
 .portfolio{
-    color: #3B5998;
+    color: black;
     font-weight: 700;
     text-align: center;
     font-size: 4em;
@@ -94,7 +95,8 @@ hr.style8:after {
 
 /* #4 About Section */
 .bgcolor{
-    background-color: #3B5998;
+    background-color: black;
+    background-image: url('background.png');
 }
 
 .bgcolor h1{ 
@@ -113,7 +115,7 @@ hr.style8:after {
 
  .resume_button, .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
     color: white;
-    border-color: #3B5998;
+    border-color: black;
 }
 .resume_button, .btn-primary.outline:active, .btn-primary.outline.active {
     border-color: #007299;
@@ -129,28 +131,30 @@ hr.style8:after {
 /* #5 Footer Section*/
 
  .footer_bg{
-    background-color: #2C3E50;
+    background-color: white;
 }
 .footer-below{
     color: white;
     text-align: center;
+     background-color: black;
+    background-image: url('background.png');
 }
 
 .footer_header{
-    color: white;
+    color: black;
     text-align: center;   
     text-decoration: underline; 
 }
 
 .footer_para{
-    color: white;
+    color: black;
     text-align: center;
     font-weight: 700;
     font-size: 1.5em;
 }
 
 .footer_text{
-    color: white;
+    color: black;
     text-align: justify;
     font-size: 1.2em;
 }
