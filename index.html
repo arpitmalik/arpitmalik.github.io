@@ -7,14 +7,15 @@
     <title>My Portfolio</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" type="javascript" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js">
     
-    <!-- AJAX -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <!-- Font Awesome -->
+    <!--Scripts-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+	<script type="text/javascript" src="app.js"></script>
+
+  	<!-- Font Awesome -->
     <script src="https://use.fontawesome.com/c3d7b6c93f.js"></script>   	
 </head>
 <body>
@@ -43,9 +44,17 @@
 	<!-- Hero Section -->
 	<div class="hero-image">
 		<div class="hero-text">
-	   		<h2>Arpit Malik</h2>
-	   		<hr class="style8">
-	   		<p class="hero-text-p">Full Stack Web Developer</p>
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+				<center><img class="header-image img-fluid rounded-circle" src="Images/mycodeimage.jpg" alt="my image" id = "code_image"></center>
+				</div>
+				<div class="col-md-12 col-xs-12">
+					<h1 id="heading">Hi! I am Arpit Malik and I develop
+					<span class="txt-rotate" data-period="100" data-rotate='[ "web applications", "coorprate websites", "UI/UX" ]'></span>.
+					</h1>
+			   		<hr class="style8">
+			   		<p class="hero-text-p">A Full Stack Web Developer based in India</p>
+		   		</div>
 	   		</div>
 		</div>
 	</div>
@@ -95,7 +104,7 @@
 					</p>
 				</div>
 				<div class="col-lg-6 col-md-6">
-				<center><img class="img-fluid header-image" src="Images/myimage.jpg" alt="my image"></center>
+				<center><img class="img-fluid about-image" src="Images/myimage.jpg" alt="my image"></center>
 				</div>
 			</div>
 
@@ -117,9 +126,10 @@
 			&emsp;
 			<a href="https://twitter.com/Apps_Malik"  target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
 			&emsp;
+			<a href="https://www.instagram.com/arpitmalik.py/" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+			&emsp;
 			<a href="https://www.linkedin.com/in/arpit-malik-80360513a"  target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
 			&emsp;
-			
 			<a href="https://github.com/arpitmalik"  target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
 
 		</center>
@@ -129,7 +139,7 @@
 		<div class="container">
 				<div class="row">
 					<div class="col-lg-6">
-						<form >
+						<form style="background-color: #EEEEEE; padding: 10px">
 							<fieldset>	
 							<center>
 							<input type="name" name="Name" placeholder="Name" class="input_box"><br>
@@ -137,7 +147,6 @@
 							<textarea name="Message" class="input_messagebox" placeholder="Enter your message" rows="80"></textarea>
 							</center>
 							<input type="submit" name="" action="none" class="input_submit" />
-							
 							</fieldset>
 						</form>
 					</div>
@@ -163,10 +172,5 @@
         <br>
   	</div>
 	<!-- End of Footer Section -->
-
-	<!-- jQuery first, then Tether, then Bootstrap JS. -->
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
