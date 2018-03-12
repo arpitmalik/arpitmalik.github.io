@@ -2,13 +2,18 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>My Portfolio</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
     <!--Scripts-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -18,13 +23,14 @@
   	<!-- Font Awesome -->
     <script src="https://use.fontawesome.com/c3d7b6c93f.js"></script>   	
 </head>
+
 <body>
 	<!-- Navbar -->
-	<nav class="navbar sticky-top navbar-toggleable-md navbar-light bg-faded" style="background-color: #EEEEEE;">
+	<nav class="navbar sticky-top navbar-toggleable-sm navbar-light bg-faded" style="background-color: #EEEEEE;">	    
 	    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
-			</button>
-			<a class="navbar-brand" href="" style="color: black;">Arpit Malik</a>
+		</button>
+		<a class="navbar-brand" href="#" style="color: black;">Arpit Malik</a>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 	  			<li class="nav-item active" >
@@ -45,42 +51,49 @@
 	<div class="hero-image">
 		<div class="hero-text">
 			<div class="row">
-				<div class="col-md-12 col-xs-12">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<center><img class="header-image img-fluid rounded-circle" src="Images/mycodeimage.jpg" alt="my image" id = "code_image"></center>
 				</div>
-				<div class="col-md-12 col-xs-12">
+
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<h1 id="heading">Hi! I am Arpit Malik and I develop
-					<span class="txt-rotate" data-period="100" data-rotate='[ "web apps", "coorprate websites", "UI/UX" ]'></span>.
+					<span class="txt-rotate" data-period="100" data-rotate='[ "web applications ", "coorprate websites", "UI/UX design" ]'></span>.
 					</h1>
-			   		<hr class="style8">
 				</div>
 	   		</div>
 		</div>
 	</div>
 	<!-- End of Hero Section -->
 	<br>
-
 	<!-- Portfolio -->
-	<section id="portfolio" >
+	<section id="portfolio"  >
 		<div>
 			<h1 class="portfolio">Portfolio</h1>
 		</div>
 		<br>
-		<div>
+		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
-					<center>
-					<img class="img-fluid" src="Images/Portfolio/cake.png" alt="Cake" style="height: auto; width: 70%"><br><br><br>
-					<img class="img-fluid" src="Images/Portfolio/submarine.png" alt="Submarine" style="height: auto; width: 70%"><br><br><br>
-					<img class="img-fluid" src="Images/Portfolio/cabin.png" alt="Cabin" style="height: auto; width: 70%"><br><br><br>
-					</center>		
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="portfolioPics">
+					<img class="img-fluid" src="Images/Portfolio/cake.png" alt="Cake">
 				</div>
-				<div class="col-lg-6">
-					<center>
-					<img class="img-fluid" src="Images/Portfolio/safe.png" alt="Safe" style="height: auto; width: 70%"><br><br><br>
-					<img class="img-fluid" src="Images/Portfolio/game.png" alt="game" style="height: auto; width: 70%"><br><br><br>
-					<img class="img-fluid" src="Images/Portfolio/circus.png" alt="Circus" style="height: auto; width:70%"><br><br><br>
-					</center>		
+				
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="portfolioPics">					
+					<img class="img-fluid" src="Images/Portfolio/safe.png" alt="Safe">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="portfolioPics">
+					<img class="img-fluid" src="Images/Portfolio/submarine.png" alt="Submarine">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="portfolioPics">	
+					<img class="img-fluid" src="Images/Portfolio/cabin.png" alt="Cabin">
+				</div>
+				
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="portfolioPics">
+					<img class="img-fluid" src="Images/Portfolio/circus.png" alt="Circus">	
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="portfolioPics">			
+					<img class="img-fluid" src="Images/Portfolio/game.png" alt="game">
 				</div>
 			</div>
 		</div>
@@ -88,8 +101,6 @@
 	<!-- End of Portfolio section -->
 	<br>
 	<br>
-	<br>
-
 	<!-- About Section-->
 	<div class="container-fluid bgcolor"  id="about">
 		<br>
@@ -97,12 +108,12 @@
 		<br>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<p class="ptext">
 						I am an engineering student pursuing to be a top-notch web developer. I am extremely astonished by the various aspects pertaining to web development and wish to excel in all the aspects. Sitting in classes bores me so I lock my self in my room and try to do something productive. Coding adds a liveliness to my still life and gives me an exquisite escape from the reality. I enjoy loosing myself completely in the world of command statements. I have learned C programming from the book "Let us C " by Yashwant Kanetkar . I have excelled in HTML and CSS with the help of online web courses from udacity.com. I graduated from Udacity's Full Stack Web Development Nanodegree program. Currently I am looking forward to get a python specialization from Coursera.com.
 					</p>
 				</div>
-				<div class="col-lg-6 col-md-6">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<center><img class="img-fluid about-image" src="Images/myimage.jpg" alt="my image"></center>
 				</div>
 			</div>
@@ -113,7 +124,6 @@
 		</div>
 	</div>
 	<!-- End Of about section -->
-
 	<!-- Footer Section -->
 	<div class="footer_bg" id="contact">
 		<br>
@@ -129,41 +139,39 @@
 			&emsp;
 			<a href="https://www.linkedin.com/in/arpit-malik-80360513a"  target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
 			&emsp;
-			<a href="https://github.com/arpitmalik"  target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-
+			<a href="https://github.com/arpitmalik" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+			&emsp;
+			<a href="https://codepen.io/arpitmalik" target="_blank"><i class="fa fa-codepen fa-3x" aria-hidden="true"></i></a>
 		</center>
-
 		<br>
-
 		<div class="container">
 				<div class="row">
-					<div class="col-lg-6">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 						<form style="background-color: #EEEEEE; padding: 10px">
 							<fieldset>	
-							<center>
-							<input type="name" name="Name" placeholder="Name" class="input_box"><br>
-							<input type="email" name="Email" placeholder="Email" class="input_box"><br>
-							<textarea name="Message" class="input_messagebox" placeholder="Enter your message" rows="80"></textarea>
-							</center>
-							<input type="submit" name="" action="none" class="input_submit" />
+								<center>
+								<input type="name" name="Name" placeholder="Name" class="input_box"><br>
+								<input type="email" name="Email" placeholder="Email" class="input_box"><br>
+								<textarea name="Message" class="input_messagebox" placeholder="Enter your message" rows="80"></textarea>
+								<input type="submit" name="" action="none" class="input_submit" />
+								</center>
 							</fieldset>
 						</form>
+
 					</div>
-					<div class="col-lg-6">
-						<p class="footer_text">Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.
-<br><br>
-						I promise to reply A.S.A.P.</p>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<p class="footer_text">Have a project for me in mind? Looking for a web developer to build the website for your company? Want to have a look at my resume? Want to get in touch with me to ask any doubt related to me or my work?
+							<BR>Just drop in your email id and question here.<br>I will get back to you asap.</p>
 					</div>
 				</div>	
 			</div>
 			<br>
-			
 	    </div> 	
 	</div>
 	<div class="footer-below">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <br><br>Copyright &copy; Arpit Malik 2017<br><br>
             </div>
           </div>
