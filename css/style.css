@@ -37,13 +37,12 @@ input,textarea{
 
 /* #3 The Hero section */
 .hero-image {
-    background-image: url('hero.jpg');
+    background-color: black;
+    background-image: url('background.png');
     height: 92.35%;
-    display: block;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
-    background-size: cover;
     position: relative;
 }
 
@@ -53,7 +52,7 @@ input,textarea{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black;
+    color: white;
     width: 100%;
 }
 
@@ -106,6 +105,7 @@ input,textarea{
 .bgcolor{
     background-color: black;
     background-image: url('background.png');
+    background-attachment: fixed;
 }
 
 .bgcolor h1{ 
@@ -154,6 +154,7 @@ input,textarea{
     text-align: center;
      background-color: black;
     background-image: url('background.png');
+    background-attachment: fixed;
 }
 
 .footer_header{
