@@ -146,7 +146,7 @@ input,textarea{
 
 /* #6 Footer Section*/
 
- .footer_bg{
+.footer_bg{
     background-color: white;
 }
 .footer-below{
@@ -172,32 +172,9 @@ input,textarea{
 
 .footer_text{
     color: black;
-    text-align: justify;
+    text-align: center;
     font-size: 1.2em;
-}
-
-.input_box{
-    text-align: left;
-    width: 100%; 
-    height:35px;
-    margin-bottom: 5px;
-    border: 1px solid black;
-}
-
-.input_messagebox{
-    text-align: left;
-    width: 100%;
-    height: 70px;
-    margin-bottom: 5px; 
-    border: 1px solid black;
- }
-
-.input_submit{
-    text-align: left;
-    height:35px;
-    margin-bottom: 5px;
-    border: 1px solid black;
-    border-radius: 5px;
+    font-weight: bold;
 }
 
 /* #7 Media Queries */ 
