@@ -25,6 +25,7 @@ input,textarea{
     color: black;
     overflow: auto; 
 }
+
 ::-webkit-input-placeholder {
   color: black;
 }
@@ -38,12 +39,11 @@ input,textarea{
 /* #3 The Hero section */
 .hero-image {
     background-color: black;
+    background-attachment: fixed;
     background-image: url('background.png');
     height: 92.35%;
     background-position: center;
     background-repeat: repeat;
-    background-attachment: fixed;
-    position: relative;
 }
 
 .hero-text {
@@ -103,9 +103,11 @@ input,textarea{
 
 /* #5 About Section */
 .bgcolor{
-    background-color: black;
     background-image: url('background.png');
+    background-color: black;
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
 }
 
 .bgcolor h1{ 
@@ -146,21 +148,29 @@ input,textarea{
 
 /* #6 Footer Section*/
 
+.fa{
+    color: black;
+}
+
 .footer_bg{
     background-color: white;
 }
 .footer-below{
     color: white;
     text-align: center;
-     background-color: black;
+    background-color: black;
     background-image: url('background.png');
     background-attachment: fixed;
 }
 
 .footer_header{
     color: black;
-    text-align: center;   
-    text-decoration: underline; 
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 10px;
 }
 
 .footer_para{
@@ -198,3 +208,4 @@ input,textarea{
     }
 
 }
+
