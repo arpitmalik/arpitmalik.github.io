@@ -1,174 +1,205 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>My Portfolio</title>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<title>My Projects</title>
+<link rel="icon" href="images/AM.jpeg"sizes="16x16 32x32">
 
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
-    <!--Scripts-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
-	<script type="text/javascript" src="app.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-  	<!-- Font Awesome -->
-    <script src="https://use.fontawesome.com/c3d7b6c93f.js"></script>   	
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<!--Other Scripts-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+<script type="text/javascript" src="app.js"></script>
+
+<!-- Font Awesome -->
+<script src="https://use.fontawesome.com/c3d7b6c93f.js"></script>   	
 </head>
 
 <body>
-	<!-- Navbar -->
-	<nav class="navbar sticky-top navbar-toggleable-sm navbar-light bg-faded" style="background-color: #EEEEEE;">	    
-	    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<a class="navbar-brand" href="#" style="color: black;">Arpit Malik</a>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-	  			<li class="nav-item active" >
-	    			<a class="nav-link " href="#portfolio" style="color: black;">Portfolio<span class="sr-only">(current)</span></a>
-	  			</li>
-	  			<li class="nav-item">
-	    			<a class="nav-link" href="#about" style="color: black;">About</a>
-	  			</li>
-	  			<li class="nav-item">
-	    			<a class="nav-link" href="#contact" style="color: black;">Contact Me</a>
-	  			</li>
-			</ul>
-		</div>
-	</nav>
-	<!-- End of NAvbar -->
 
-	<!-- Hero Section -->
-	<div class="hero-image">
-		<div class="hero-text">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<center><img class="header-image img-fluid" src="Images/mycodeimage.jpg" alt="my image" id = "code_image"></center>
-				</div>
+<!--Preloader-->	
+<div class="spinner-wrapper">
+	<div class="spinner"></div>
+</div>
 
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<h1 id="heading">Hi! I am Arpit Malik and I develop
-					<span class="txt-rotate" data-period="100" data-rotate='[ "web applications ", "coorprate websites", "UI/UX design" ]'></span>.
-					</h1>
-				</div>
-	   		</div>
-		</div>
-	</div>
-	<!-- End of Hero Section -->
-	<br>
-	<!-- Portfolio -->
-	<section id="portfolio"  >
-		<div>
-			<h1 class="portfolio">Portfolio</h1>
-		</div>
-		<br>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="portfolioPics">
-					<img class="img-fluid" src="Images/Portfolio/cake.png" alt="Cake">
-				</div>
-				
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="portfolioPics">					
-					<img class="img-fluid" src="Images/Portfolio/safe.png" alt="Safe">
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="portfolioPics">
-					<img class="img-fluid" src="Images/Portfolio/submarine.png" alt="Submarine">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="portfolioPics">	
-					<img class="img-fluid" src="Images/Portfolio/cabin.png" alt="Cabin">
-				</div>
-				
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="portfolioPics">
-					<img class="img-fluid" src="Images/Portfolio/circus.png" alt="Circus">	
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="portfolioPics">			
-					<img class="img-fluid" src="Images/Portfolio/game.png" alt="game">
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End of Portfolio section -->
-	<br>
-	<br>
-	<!-- About Section-->
-	<div class="bgcolor container-fluid">
-		<br>
-		<h1>About</h1>
-		<br>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<p class="ptext">
-						I am an engineering student pursuing to be a top-notch web developer. I am extremely astonished by the various aspects pertaining to web development and wish to excel in all the aspects. Sitting in classes bores me so I lock my self in my room and try to do something productive. Coding adds a liveliness to my still life and gives me an exquisite escape from the reality. I enjoy loosing myself completely in the world of command statements. I have learned C programming from the book "Let us C " by Yashwant Kanetkar . I have excelled in HTML and CSS with the help of online web courses from udacity.com. I graduated from Udacity's Full Stack Web Development Nanodegree program. Currently I am looking forward to get a python specialization from Coursera.com.
-					</p>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-				<center><img class="img-fluid about-image" src="Images/myimage.jpg" alt="my image"></center>
-				</div>
-			</div>
-
-			<br>
-			<br>
-			<br>	
-		</div>
-	</div>
-	<!-- End Of about section -->
-	
-	<!-- Footer Section -->
-	<div class="footer_bg" id="contact">
-		<div>
-			<h1 class="footer_header">Contact Me</h1>
-		</div>
-		<br>
+<!-- Hero Section -->
+<div class="hero-image" id="top">
+	<div class="hero-text">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<center>
-				<a href="https://www.facebook.com/Appy.Malik" target="_blank"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
-				&emsp;
-				<a href="https://codepen.io/arpitmalik" target="_blank"><i class="fa fa-codepen fa-3x" aria-hidden="true"></i></a>
-				&emsp;
-				<a href="https://github.com/arpitmalik" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-				&emsp;
-				<a href="https://www.instagram.com/arpitmalik.py/" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
-				&emsp;
-				<a href="https://www.linkedin.com/in/arpit-malik-80360513a"  target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-				
-				</center>
+				<h1>Hello, I'm <span style="color: #028BB1; font-weight: bold;">Arpit Malik</span>.<br> I develop
+				<span class="txt-rotate" data-period="100" data-rotate='[ "web applications ", "corporate websites", "UI/UX design" ]'></span>.
+				</h1>
+			</div>
+   		</div>
+	</div>
+</div>
+<!-- End of Hero Section -->
+
+<!-- Navbar -->
+<nav class="navbar sticky-top navbar-toggleable-sm navbar-light bg-faded" style="background-color: #EEEEEE;">	    
+	  <a class="navbar-brand mx-auto" href="#top"><img src="images/AM.jpeg" height="50px" width="50px;" style="border-radius: 50%"></a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mx-auto">
+  			<li class="nav-item">
+    			<a class="nav-link" href="#top" style="color: black;">Home</a>
+  			</li>
+  			<li class="nav-item">
+    			<a class="nav-link" href="#about" style="color: black;">About</a>
+  			</li>
+  			<li class="nav-item" >
+    			<a class="nav-link " href="#Projects" style="color: black;">Projects</a>
+  			</li>
+  			<li class="nav-item">
+    			<a class="nav-link" href="#contact" style="color: black;">Contact Me</a>
+  			</li>
+		</ul>
+	</div>
+</nav>
+<!-- End of NAvbar -->
+
+<!-- About Section-->
+<div class="container-fluid" id="about">
+	<br><br><br>
+	<h1 class="about">About</h1>
+	<br><br>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<center><img class="img-fluid about-image" src="Images/myimage.jpg" alt="my image"></center>
+				<br>
+				<h4 style="text-align: center; color:#626262">Who's this guy?</h4>
+				<p class="ptext">
+					I'm the Full Stack Web Developer and Blockchain enthusiast based in India <img src="images/india.png">.<br>
+					I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.<br>
+					<a href="#contact" style="color: #028BB1; font-weight: bold;">Let's make something special.</a>
+				</p>
+			</div>
+		</div>
+		<br><br><br>
+	</div>
+</div>
+<!-- End Of about section -->
+
+<!-- Projects -->
+<section id="Projects" class="bgcolor">
+	<br><br>
+	<div>
+		<br><h1 class="Projects">Projects</h1>
+	</div>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="ProjectsPics">
+				<img class="img-fluid" src="Images/Projects/cake.png" alt="Cake">
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="ProjectsPics">					
+				<img class="img-fluid" src="Images/Projects/safe.png" alt="Safe">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="ProjectsPics">
+				<img class="img-fluid" src="Images/Projects/submarine.png" alt="Submarine">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="ProjectsPics">	
+				<img class="img-fluid" src="Images/Projects/cabin.png" alt="Cabin">
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="ProjectsPics">
+				<img class="img-fluid" src="Images/Projects/circus.png" alt="Circus">	
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="ProjectsPics">			
+				<img class="img-fluid" src="Images/Projects/game.png" alt="game">
+			</div>
+		</div>
+	<br>
+	</div>
+</section>
+<!-- End of Projects section -->
+
+<br>
+<br>
+
+
+<!-- Footer Section -->
+<div class="footer_bg" id="contact">
+	<div>
+		<h1 class="footer_header">Contact Me</h1>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<center>
+			<a href="https://www.facebook.com/Appy.Malik" target="_blank"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+			&emsp;
+			<a href="https://codepen.io/arpitmalik" target="_blank"><i class="fa fa-codepen fa-3x" aria-hidden="true"></i></a>
+			&emsp;
+			<a href="https://github.com/arpitmalik" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+			&emsp;
+			<a href="https://www.instagram.com/arpitmalik.py/" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+			&emsp;
+			<a href="https://www.linkedin.com/in/arpit-malik-80360513a"  target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+			</center>
+		</div>
+	</div>	
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<p class="footer_text">Have a project for me in mind? Looking for a web developer?<br>Want to have a look at my resume or get in touch with me?<br>Just drop in your email id and question <a href="mailto:arpitmalik04@gmail.com" target="_top"">here</a>.<br>I will get back to you asap.</p>
 			</div>
 		</div>	
 		<br>
-		<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<p class="footer_text">Have a project for me in mind? Looking for a web developer to build the website for your company?<br>Want to have a look at my resume? Want to get in touch with me to ask any doubt related to me or my work?
-							<BR>Just drop in your email id and question <a href="mailto:arpitmalik04@gmail.com" target="_top"">here</a>.<br>I will get back to you asap.</p>
-					</div>
-				</div>	
-			</div>
-			<br>
-	    </div> 	
-	</div>
-	<div class="footer-below">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <br><br>Copyright &copy; Arpit Malik 2018<br><br>
-            </div>
-          </div>
+    </div> 	
+</div>
+<div class="footer-below">
+    <div class="container">
+    	<button class="btn gototop" id="scrollToTop"><i class="fa fa-2x fa-angle-double-up" id="scrollToTop"></i></button>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <br><br>&copy; Arpit Malik | 2018<br><br>
         </div>
-        <br>
-  	</div>
-	<!-- End of Footer Section -->
+      </div>
+    </div>
+    <br>
+	</div>
+<!-- End of Footer Section -->
+
+<script type="text/javascript">
+	//scroll to top button animation
+	$('#scrollToTop').click(function(){
+    	$("html, body").animate({scrollTop : 0}, 1000);
+ 	 });
+
+	$(document).ready(function() {
+	//Preloader
+		$(window).on("load", function() {
+			preloaderFadeOutTime = 500;
+			function hidePreloader() {
+				var preloader = $('.spinner-wrapper');
+				preloader.fadeOut(preloaderFadeOutTime);
+			}
+			hidePreloader();
+		});
+	});
+</script>
+
 </body>
 </html>

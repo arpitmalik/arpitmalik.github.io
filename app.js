@@ -55,6 +55,3 @@ window.onload = function() {
   document.body.appendChild(css);
 };
 
-$(document).ready(function() {
-    $("#code_image").fadeIn(1000);
-});
