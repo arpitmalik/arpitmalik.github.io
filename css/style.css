@@ -271,6 +271,7 @@ nav{
     #ProjectsPics{
         padding: 7px;
         margin-top: 10px;
+        min-height: 100%;
     }
 }
 
