@@ -95,11 +95,19 @@ nav{
     font-size: 4em;
 }
 
-#ProjectsPics{
-    padding: 13px;
-     margin: 0px;
+#Projects{
+    padding-bottom: 50px;
 }
 
+#ProjectsPics{
+    cursor: pointer;
+    padding: 13px;
+    margin-top: 20px;
+}
+
+.back a{
+    color: black;
+}
 
 
 /*------#5 About Section------*/
@@ -257,7 +265,13 @@ nav{
         padding-right: 2%;
         font-weight: bold;
     }
-
+    #Projects{
+       padding-bottom: 20px;
+    }
+    #ProjectsPics{
+        padding: 7px;
+        margin-top: 10px;
+    }
 }
 
 .gototop{
@@ -273,4 +287,3 @@ nav{
     margin: 0px auto;
     cursor: pointer;
 }
-

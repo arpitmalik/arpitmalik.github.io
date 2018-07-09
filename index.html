@@ -21,6 +21,7 @@
 
 <!--Other Scripts-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
 <script type="text/javascript" src="app.js"></script>
 
@@ -107,26 +108,85 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="ProjectsPics">
-				<img class="img-fluid" src="Images/Projects/cake.png" alt="Cake">
+				<div id="cake">
+					<div class="front">
+						<img class="img-fluid" src="Images/Projects/cake.png" alt="Cake" />
+					</div>
+					<div class="back" style="background-color: #1FA4B6; padding: 12px;">
+						<h3>The Neighbourhood Map</h3>
+						<p style="color: white">A map that shows nearby places with details.</p>
+		    			<p> Used Knockout JS, Google Maps API, JQuery & Wikipedia API</p>
+						<p style="color: white">Link: <a href="https://arpitmalik.github.io/Neighborhood-Map/" target="_blank">Click here</a></p>
+					</div>
+				 </div>
 			</div>
-			
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="ProjectsPics">					
-				<img class="img-fluid" src="Images/Projects/safe.png" alt="Safe">
+				<div id="cabin">
+					<div class="front">
+						<img class="img-fluid" src="Images/Projects/cabin.png" alt="Cabin">
+					</div>
+					<div class="back" style="background-color: #BA4C63; padding: 12px;">
+						<h3>React-Player</h3>
+						<p style="color: white">A web app just like youtube made completely with React JS</p>
+						<p> Used React JS, Youtube Search API and JQuery</p>
+						<p style="color: white">Link: <a href="https://github.com/arpitmalik/React-Player" target="_blank">Click here (Github Link)</a></p>
+					</div>
+				 </div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="ProjectsPics">
-				<img class="img-fluid" src="Images/Projects/submarine.png" alt="Submarine">
+				<div id="circus">
+					<div class="front">
+						<img class="img-fluid" src="Images/Projects/circus.png" alt="Circus">
+					</div>
+					<div class="back" style="background-color: #130F0F; padding: 12px;">
+						<h3 style="color: #848689">The Flatlander Store</h3>
+						<p style="color: white">A gem selling store made entirely using Angular.js</p>
+						<p style="color: #848689"> Used Angular JS, Bootstrap 4, HTML 5 & CSS 3</p>
+						<p style="color: white">Link: <a href="https://arpitmalik.github.io/FlatLander-Store/" target="_blank" style="color: #848689">Click here</a></p>
+					</div>
+				 </div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="ProjectsPics">	
-				<img class="img-fluid" src="Images/Projects/cabin.png" alt="Cabin">
+				<div id="game">
+					<div class="front">
+						<img class="img-fluid" src="Images/Projects/game.png" alt="Game">
+					</div>
+					<div class="back" style="background-color: #1D83C1; padding: 12px;">
+						<h3>The Item Catalog</h3>
+						<p style="color: white">Application that provides a list of items as well as provide a user registration and authentication system.</p>
+						<p> Used Python 3, HTML and CSS</p>
+						<p style="color: white">Link: <a href="https://github.com/arpitmalik/itemCatalog" target="_blank">Click here (Github Link)</a></p>
+					</div>
+				 </div>
 			</div>
 			
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="ProjectsPics">
-				<img class="img-fluid" src="Images/Projects/circus.png" alt="Circus">	
+				<div id="safe">
+					<div class="front">
+						<img class="img-fluid" src="Images/Projects/safe.png" alt="Safe">
+					</div>
+					<div class="back" style="background-color: #1FA4B6; padding: 12px;">
+						<h3>FreshTomatoes</h3>
+						<p style="color: white">Movie Trailer Website made with python 2.</p>
+						 <p> Used python 2</p>
+						<p style="color: white">Link: <a href="https://github.com/arpitmalik/freshtomatoes" target="_blank">Click here (Github Link)</a></p>
+					</div>
+				 </div>	
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="ProjectsPics">			
-				<img class="img-fluid" src="Images/Projects/game.png" alt="game">
+				<div id="submarine">
+					<div class="front">
+						<img class="img-fluid" src="Images/Projects/submarine.png" alt="Sub">
+					</div>
+					<div class="back" style="background-color: #1FA4B6; padding: 12px;">
+						<h3>Several mini projects</h3>
+						<p style="color: white">All of them are available on my codepen profile. Check it out by clicking the link below.</p>
+						 <p> Using HTML, CSS, Javascript and JQuery.</p>
+						<p style="color: white">Link: <a href="https://codepen.io/arpitmalik/" target="_blank">Click here (Codepen Profile)</a></p>
+					</div>
+				 </div>
 			</div>
 		</div>
 	<br>
@@ -183,6 +243,15 @@
 <!-- End of Footer Section -->
 
 <script type="text/javascript">
+
+	//jQuery for project images.
+	$("#cake").flip();
+	$("#cabin").flip();
+	$("#circus").flip();
+	$("#game").flip();
+	$("#safe").flip();
+	$("#submarine").flip();
+
 	//scroll to top button animation
 	$('#scrollToTop').click(function(){
     	$("html, body").animate({scrollTop : 0}, 1000);
@@ -199,6 +268,7 @@
 			hidePreloader();
 		});
 	});
+
 </script>
 
 </body>
