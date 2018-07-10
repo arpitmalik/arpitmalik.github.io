@@ -70,7 +70,7 @@ nav{
 }
 
 .hero-text h1{
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .header-image{
@@ -86,6 +86,40 @@ nav{
      margin-bottom: 10px;
 }
 
+.get-btn{
+    font-family: 'Raleway', sans-serif !important; 
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color: transparent;
+    border: 5px solid #028BB1;
+    border-radius: 50px;
+    color: white;
+    width: 12%;
+    margin-top: 15px;
+}
+
+.get-btn:focus{
+    outline: none;
+}
+.get-btn:active{
+    background-color: #028BB1;
+    border: 3px solid white;
+    
+}
 /*------#4 Projects Section------*/ 
 
 .Projects{
@@ -273,12 +307,16 @@ nav{
         margin-top: 10px;
         min-height: 100%;
     }
+    .get-btn{
+        font-size: 1rem;
+        width: 40%;
+    }
 }
 
 .gototop{
     position: absolute;
     top: -25px;
-    background: #E31B6D;
+    background: #028BB1;
     font-size: 30pt;
     width: 40px;
     height: 50px;
