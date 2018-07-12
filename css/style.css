@@ -18,10 +18,7 @@ Topics:
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-*{
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-}
+
 
 body,html{
     font-family: 'Raleway', sans-serif !important; 
@@ -29,6 +26,8 @@ body,html{
     height: 100%;
     position: relative;
     overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 input,textarea{
