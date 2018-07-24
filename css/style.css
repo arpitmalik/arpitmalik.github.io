@@ -75,19 +75,6 @@ nav{
     font-size: 1.3em;
 }
 
-.header-image{
-     height: 30%;
-     width: 30%; 
-     max-height: 30%; 
-     max-width: 30%; 
-     padding: 0px;
-     align-items: center;
-     display: none;
-     border: 2px solid black;
-     border-radius: 50%;
-     margin-bottom: 10px;
-}
-
 .get-btn{
     font-family: 'Raleway', sans-serif !important; 
     display: inline-block;
