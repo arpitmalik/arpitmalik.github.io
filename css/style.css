@@ -48,6 +48,10 @@ nav{
     color: white;
 }
 
+#logo-btn{
+    display: none;
+}
+
 /*------#3 The Hero section------*/
 
 .hero-image {
@@ -205,6 +209,7 @@ nav{
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
+    margin-top: 50px;
 }
 
 /*GO TO TOP BUTTON*/
@@ -267,6 +272,7 @@ nav{
 
 /*------#8 Media Queries------*/ 
 
+/*Phone*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .hero-text h1{
       font-size: 0.7em;
@@ -289,10 +295,11 @@ nav{
     .footer_text{
         color: black;
         text-align: center;
-        font-size: 1.2em;
+        font-size: 1.5em;
         padding-left: 2%;
         padding-right: 2%;
         font-weight: bold;
+        margin-top: 30px;
     }
     #myprojects{
        padding-bottom: 20px;
@@ -306,9 +313,12 @@ nav{
         font-size: 1rem;
         width: 40%;
     }
+    #logo-btn{
+        display: block;
+    }
 }
 
-
+/*Tablets*/
 @media (min-width: 700px) and (max-width: 1024px){
   
   .hero-text h1{
@@ -332,7 +342,7 @@ nav{
     .footer_text{
         color: black;
         text-align: center;
-        font-size: 1.2em;
+        font-size: 1.4em;
         padding-left: 2%;
         padding-right: 2%;
         font-weight: bold;
@@ -350,5 +360,7 @@ nav{
         font-size: 1rem;
         width: 20%;
     }
-  
+    #logo-btn{
+        display: block;
+    }
 }

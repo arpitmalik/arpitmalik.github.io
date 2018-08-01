@@ -51,8 +51,8 @@
 <!-- End of Hero Section -->
 
 <!-- Navbar -->
-<nav class="navbar sticky-top navbar-toggleable-sm navbar-light bg-faded" style="background-color: #EEEEEE;">	    
-	  <a class="navbar-brand mx-auto" href="#top"><img src="Images/AM.jpeg" height="50px" width="50px;" style="border-radius: 50%"></a>
+<nav class="navbar sticky-top navbar-toggleable-sm navbar-light bg-faded" style="background-color: #EEEEEE; min-height: 80px; ">
+	<a class="navbar-brand mx-auto" href="#top"><img src="Images/AM.jpeg" height="50px" width="50px;" style="border-radius: 50%" id="logo-btn"></a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
@@ -63,6 +63,9 @@
   			</li>
   			<li class="nav-item">
     			<a class="nav-link" href="#about" style="color: black;">About</a>
+  			</li>
+  			<li class="nav-item">
+    			<a class="nav-link" href="https://arpitmalik.github.io/myresume/" style="color: black;">Resume</a>
   			</li>
   			<li class="nav-item" >
     			<a class="nav-link " href="#myprojects" style="color: black;">Projects</a>
@@ -222,14 +225,39 @@
 	<br>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<p class="footer_text">Have a project for me in mind? Looking for a web developer?<br>Want to have a look at my resume or get in touch with me?<br>Just drop in your email id and question <a href="mailto:arpitmalik04@gmail.com" target="_top"">here</a>.<br>I will get back to you asap.</p>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+				<p class="footer_text">Have a project for me in mind?<br>Looking for a web developer?<br>Want to get in touch with me?<br>Just drop in your query.<br>I will get back to you asap.</p>
 			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin-top: 30px;">
+                <form class="form" role="form" autocomplete="off" action="https://formspree.io/arpitmalik04@gmail.com" method="POST">
+                    <fieldset>
+                        <label for="name2" class="mb-0">Name</label>
+                        <div class="row mb-1">
+                            <div class="col-lg-12">
+                                <input type="text" name="name2" id="name2" class="form-control" required="">
+                            </div>
+                        </div>
+                        <label for="email2" class="mb-0">Email</label>
+                        <div class="row mb-1">
+                            <div class="col-lg-12">
+                                <input type="text" name="email2" id="email2" class="form-control" required="">
+                            </div>
+                        </div>
+                        <label for="message2" class="mb-0">Message</label>
+                        <div class="row mb-1">
+                            <div class="col-lg-12">
+                                <textarea rows="6" name="message2" id="message2" class="form-control" required=""></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg float-right">Send Message</button>
+                    </fieldset>
+                    </form>
+            </div>
 		</div>	
 		<br>
     </div> 	
 </div>
-<div class="footer-below">
+<div class="footer-below" style="margin-top: 50px;">
     <div class="container">
     	<button class="btn gototop" id="scrollToTop"><i class="fa fa-2x fa-angle-double-up" id="scrollToTop"></i></button>
       <div class="row">
