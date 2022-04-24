@@ -1,3 +1,3 @@
 # My Portfolio
 
-This portfolio is live at https://arpitmalik.me/
+This portfolio is live at https://arpitmalik.in/
